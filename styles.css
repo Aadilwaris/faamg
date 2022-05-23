@@ -1,0 +1,68 @@
+body{
+  background-image: radial-gradient(42rem,#999999,#888888,#777777,#555555, #444444,#444444,#000);
+  font-family: "Lato", sans-serif;
+}
+
+h3{
+  color: white;
+}
+
+.logo{
+  width: 40px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 0.25rem;
+}
+
+.timer-container{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.countdown{
+  display: flex;
+  text-align: center;
+  margin: 0;
+  column-gap: 5rem;
+
+}
+
+.name_timer{
+  text-align: center;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.year,.day,.hour,.minute,.second,.millisecond{
+  font-size: 2.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.name{
+  text-align: center;
+  margin: 0;
+}
+
+.year {color: #4285f4;}
+.day {color: #db4437;}
+.hour {color: #f4b400;}
+.minute {color: #4285f4;}
+.second {color: #0f9d58;}
+.millisecond {color: #db4437;}
+
+.g{
+  font-weight: bolder;
+}
+
+.time-remain{
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-weight: 600;
+  color: #393e46;
+}
